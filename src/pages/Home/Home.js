@@ -9,6 +9,7 @@ import styles from './Home.module.sass';
 import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
 import GotQuestions from '../../components/GotQuestions';
+import WhyBlock from '../../components/WhyBlock';
 
 const Home = (props) => {
   const [index, setIndex] = useState(0);
@@ -217,6 +218,8 @@ const Home = (props) => {
               />
             </div>
           </div>
+
+          <WhyBlock/>
           <Footer />
         </>
       )}
