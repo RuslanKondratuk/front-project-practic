@@ -1,0 +1,104 @@
+.card {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+.square-wrapper {
+    padding: 10px;
+}
+
+.square {
+    width: 100%;
+    padding: 20px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.title {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    color: #666;
+    line-height: 1.5rem;
+}
+
+.price {
+
+    margin-top: auto;
+    margin-left: auto;
+    font-size: 1.5rem;
+}
+
+.bronze {
+    color: #e0b48d;;
+}
+
+.background-bronze {
+    background-color: #e0b48d;;
+}
+
+.gold {
+    color: #e8b954;
+}
+
+.background-gold {
+    background-color: #e8b954;
+}
+.platinum {
+    color: #555;
+}
+
+.background-platinum {
+    background-color: #555
+}
+.managed {
+    color: #28d2d0;
+}
+
+.background-managed {
+    background-color: #28d2d0;
+}
+
+.block-text {
+    margin-top: 30px;
+
+}
+
+
+.btn {
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.text {
+    font-size: 1.2rem;
+    margin-left: 7px;
+}
+
+.card:hover .square-wrapper {
+    -webkit-box-shadow: 0px 12px 16px 6px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 12px 16px 6px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 12px 16px 6px rgba(34, 60, 80, 0.2);
+}
+.square:hover {
+    -webkit-box-shadow: 0px 12px 17px 11px rgba(34, 60, 80, 0.29);
+    -moz-box-shadow: 0px 12px 17px 11px rgba(34, 60, 80, 0.29);
+    box-shadow: 0px 12px 17px 11px rgba(34, 60, 80, 0.29);
+}
+
+.btn:hover {
+    border: 2px solid;
+}

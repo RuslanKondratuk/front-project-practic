@@ -1,0 +1,43 @@
+.pricing-section {
+    background-color: white;
+    display: flex;
+}
+
+.container {
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0 20px ;
+}
+
+.pricing-for-text {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 0 20px;
+}
+
+.select {
+    padding: 10px;
+    background-color: #28d2d0;
+    color: white;
+    font-weight: 700;
+    font-size: 1.8rem;
+    width: content
+}
+
+.select option {
+    background-color: white;
+    color: rgb(143, 138, 138);
+    font-size: 12px;
+}
+
+.logo {
+    width: 380px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+
+}

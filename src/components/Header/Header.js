@@ -126,7 +126,7 @@ class Header extends React.Component {
                     />
                     <ul>
                       <li><a href="#">HOW IT WORKS</a></li>
-                      <li><a href="#">PRICING</a></li>
+                      <li><Link to='/price'>PRICING</Link></li>
                       <li><a href="#">AGENCY SERVICE</a></li>
                       <li><a href="#">ACTIVE CONTESTS</a></li>
                       <li><a href="#">WINNERS</a></li>
